@@ -1,4 +1,7 @@
-var x=Math.floor((Math.random()*3)+ 1);if(x=="1"){xxx="https://www.puisi62.eu.org/2020/07/patah-hati.html"}if(x=="https://www.puisi62.eu.org/2021/05/syair-penyesalan.html"){xxx="b"}if(x=="3"){xxx="https://www.puisi62.eu.org/2021/05/syair-jalan-panjang.html"}; 
+var x=Math.floor((Math.random()*3)+ 1);
+if(x=="1"){xxx="https://www.puisi62.eu.org/2020/07/patah-hati.html"}
+if(x=="2"){xxx="https://www.puisi62.eu.org/2021/05/syair-penyesalan.html"}
+if(x=="3"){xxx="https://www.puisi62.eu.org/2021/05/syair-jalan-panjang.html"}; 
 
 //ini script untuk ambil parameter
 function getUrlVars() {
