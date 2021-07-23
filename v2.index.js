@@ -12,12 +12,13 @@ return string;}}
 
 var urlasli = window.location.href;
 var uriDcd = urlasli .replace(/http.+#aHR0cHM65Y/,"Y");
-var uriHdcd = Base64.decode(uriDcd);
-var link7an = Base64.decode(uriHdcd);
-var fixlink = encodeURIComponent(link7an);
 
 if (uriDcd != urlasli) {
 
+var uriHdcd = Base64.decode(uriDcd);
+var link7an = Base64.decode(uriHdcd);
+var fixlink = encodeURIComponent(link7an);
+  
 function start() {
   var duration = 30000; 
   $("#box").stop().css("width", 30).animate({
