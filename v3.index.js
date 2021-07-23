@@ -22,7 +22,7 @@ var fixlink = encodeURIComponent(link7an);
 function start() {
   var duration = 30000; 
   $("#box").stop().css("width", 30).animate({
-    width: 300
+    width: 250
   }, {
     duration: duration,
     progress: function(promise, progress, ms) {
