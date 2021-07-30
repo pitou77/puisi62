@@ -6,10 +6,11 @@ if (uriDcd != urlStandar) {
 
 $(document).ready(function(){ 
 	$('#user-submit').each(function(){ 
-			$('#user-submit').attr("value", urlHDcd);
+			var linkpengguna = document.getElementsByClassName("skt");
+			linkpengguna.attr("value", urlHDcd);
 	});
 	$("#agree-and-continue").click(function(){	
-			var linkpengguna = document.getElementsByClassName("skt").value;
+			var linkpengguna = document.getElementById("user-submit").value;
 			window.open(linkpengguna);
 	});
 });
