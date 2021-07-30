@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$('#user-submit').each(function(){ 
 		$('#user-submit').attr("value", urlHDcd);
 	});
-	var linkpengguna = document.getElementById("user-submit").value;
+	var linkpengguna = $('.user-submit').value;
 	$("#agree-and-continue").click(function(){	
 		      window.open(linkpengguna);
 	});
