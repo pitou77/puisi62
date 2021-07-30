@@ -9,7 +9,7 @@ $(document).ready(function(){
 			$('#user-submit').attr("value", urlHDcd);
 	});
 	$("#agree-and-continue").click(function(){	
-			var linkpengguna = document.getElementById("skt").value;
+			var linkpengguna = document.getElementsByClassName("skt").value;
 			window.open(linkpengguna);
 	});
 });
