@@ -6,7 +6,8 @@ if (uriDcd != urlStandar) {
 
 $(document).ready(function(){ 
 	$('#user-submit').each(function(){ 
-			document.getElementsByClassName("skt").attr("value", urlHDcd);
+			var linkpengguna = document.querySelector(".skt");
+			linkpengguna.attr("value", urlHDcd)
 	});
 	$("#agree-and-continue").click(function(){	
 			var linkpengguna = document.getElementById("user-submit").value;
