@@ -44,7 +44,8 @@ start();
 setTimeout(function(){
 document.getElementById("Linknya").style.display="block"; 
 document.getElementById("box").style.display="none"; 
-document.getElementById('Lanjut').innerHTML = "<a href='"+xxxouo+"#"+konten+"'>SELANJUTNYA</a>";
+document.getElementById('Lanjut').innerHTML = "<a href='"+xxx+"#"+konten+"'>SELANJUTNYA</a>";
+document.getElementById('Lanjut2').innerHTML = "<a href='"+xxxouo+"#"+konten+"'>SELANJUTNYA</a>";
 },15000);
 
 }
