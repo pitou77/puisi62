@@ -2,7 +2,7 @@ var x=Math.floor((Math.random()*3)+ 1);
 if(x=="1"){xxx="https://www.puisi62.eu.org/2020/07/patah-hati.html"}
 if(x=="2"){xxx="https://www.puisi62.eu.org/2021/05/syair-penyesalan.html"}
 if(x=="3"){xxx="https://www.puisi62.eu.org/2021/05/syair-jalan-panjang.html"}; 
-var xxxouo = xxx.replace('https://','http://ouo.io/qs/GGytQtE4?s=').replace('&m=1','');
+var xxxouo = xxx.replace('https://','https://ouo.io/qs/GGytQtE4?s=').replace('&m=1','');
 
 //ini script untuk ambil parameter
 function getUrlVars() {
@@ -45,8 +45,16 @@ start();
 setTimeout(function(){
 document.getElementById("Linknya").style.display="block"; 
 document.getElementById("box").style.display="none"; 
-document.getElementById('Lanjut').innerHTML = "<a href='"+xxx+"#"+kontens+"'>SELANJUTNYA</a>";
-document.getElementById('Lanjut2').innerHTML = "<a href='"+xxxouo+"#"+kontens+"'>SELANJUTNYA</a>";
+document.getElementById('Lanjut').innerHTML = "<a id='mobileLanjut' href='"+xxx+"#"+kontens+"'>SELANJUTNYA</a>";
+document.getElementById('Lanjut2').innerHTML = "<a id='desktopLanjut'>SELANJUTNYA</a>";
 },5000);
 
 }
+
+$(document).ready(function(){
+  $('#box').each(function(){
+    $("#desktopLanjut").click(function(){
+      window.location=xxxouo+"#"+kontens;
+    });
+  });
+}); 
