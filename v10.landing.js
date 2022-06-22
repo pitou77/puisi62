@@ -23,7 +23,7 @@ function getUrlParam(parameter, defaultvalue){
 
 $(document).ready(function(){
   $('#box').each(function(){
-    $("#desktopLanjut").click(function(){
+    $("#Lanjut2").click(function(){
       window.location=xxxouo+"#"+kontens;
     });
   });
@@ -53,7 +53,7 @@ setTimeout(function(){
 document.getElementById("Linknya").style.display="block"; 
 document.getElementById("box").style.display="none"; 
 document.getElementById('Lanjut').innerHTML = "<a id='mobileLanjut' href='"+xxx+"#"+kontens+"'>SELANJUTNYA</a>";
-document.getElementById('Lanjut2').innerHTML = "<a id='desktopLanjut'>SELANJUTNYA</a>";
+document.getElementById('Lanjut2').innerHTML = "<a id='desktopLanjut' href='#'>SELANJUTNYA</a>";
 },5000);
 
 }
