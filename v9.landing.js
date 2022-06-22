@@ -21,13 +21,20 @@ function getUrlParam(parameter, defaultvalue){
     return urlparameter;
 }
 
+$(document).ready(function(){
+  $('#box').each(function(){
+    $("#desktopLanjut").click(function(){
+      window.location=xxxouo+"#"+kontens;
+    });
+  });
+}); 
+
 var konten = getUrlParam('article',null);
 var kontens = konten.replace('%3D','=').replace('%3D','=');
 
 var urlStandar = window.location.href;
 
 if (konten != null) {
-
 
 function start() {
   var duration = 5000; // it should finish in 15 seconds !
@@ -50,11 +57,3 @@ document.getElementById('Lanjut2').innerHTML = "<a id='desktopLanjut'>SELANJUTNY
 },5000);
 
 }
-
-$(document).ready(function(){
-  $('#box').each(function(){
-    $("#desktopLanjut").click(function(){
-      window.location=xxxouo+"#"+kontens;
-    });
-  });
-}); 
