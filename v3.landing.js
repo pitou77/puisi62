@@ -2,6 +2,7 @@ var x=Math.floor((Math.random()*3)+ 1);
 if(x=="1"){xxx="https://www.puisi62.eu.org/2020/07/patah-hati.html"}
 if(x=="2"){xxx="https://www.puisi62.eu.org/2021/05/syair-penyesalan.html"}
 if(x=="3"){xxx="https://www.puisi62.eu.org/2021/05/syair-jalan-panjang.html"}; 
+var xxxouo = xxx.replace('https://','http://ouo.io/qs/GGytQtE4?s=');
 
 //ini script untuk ambil parameter
 function getUrlVars() {
@@ -43,7 +44,7 @@ start();
 setTimeout(function(){
 document.getElementById("Linknya").style.display="block"; 
 document.getElementById("box").style.display="none"; 
-document.getElementById('Lanjut').innerHTML = "<a href='"+xxx+"#"+konten+"'>SELANJUTNYA</a>";
+document.getElementById('Lanjut').innerHTML = "<a href='"+xxxouo+"#"+konten+"'>SELANJUTNYA</a>";
 },15000);
 
 }
