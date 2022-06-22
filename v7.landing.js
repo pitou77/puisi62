@@ -30,7 +30,7 @@ if (konten != null) {
 
 
 function start() {
-  var duration = 15000; // it should finish in 15 seconds !
+  var duration = 5000; // it should finish in 15 seconds !
   $("#box").stop().css("width", 30).animate({
     width: 200
   }, {
@@ -47,6 +47,6 @@ document.getElementById("Linknya").style.display="block";
 document.getElementById("box").style.display="none"; 
 document.getElementById('Lanjut').innerHTML = "<a href='"+xxx+"#"+kontens+"'>SELANJUTNYA</a>";
 document.getElementById('Lanjut2').innerHTML = "<a href='"+xxxouo+"#"+kontens+"'>SELANJUTNYA</a>";
-},15000);
+},5000);
 
 }
